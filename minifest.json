@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Page Translator",
+    "version": "1.0",
+    "description": "Simple Page Translator Extension that we created in AsmrProg Channel.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "img/icon16.png",
+        "32": "img/icon32.png",
+        "128": "img/icon128.png"
+      }
+    },
+    "icons": {
+      "16": "img/icon16.png",
+      "32": "img/icon32.png",
+      "128": "img/icon128.png"
+    }
+  }
